@@ -3,13 +3,11 @@
 
 In our article *Visual Gyroscope: Combination of Deep Learning Features and Direct Alignment for Panoramic Stabilization*, we propose a 3-step pipeline for panoramic image stabilization. In this repository can be found the first step of the pipeline, the Convolutional Neural Network **HoLiNet**
 
-## Step 2: MPP
+## Steps 2 and 3: MPP and PVG
 
-The second step of the pipeline can be found in [MPP](https://github.com/PerceptionRobotique/libPeR_base)
+The second and third steps of the pipeline share a common library that can be found in [LibPeR](https://github.com/PerceptionRobotique/libPeR_base)
 
-## Step 3: PVG
-
-The third step of the pipeline can be found in [PVG](https://github.com/AntoineAndre/dualfisheye2equi)
+Comming soon: [Visual Gyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) 
 
 # HoLiNet usage
 
