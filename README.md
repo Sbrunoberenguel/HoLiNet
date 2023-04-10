@@ -1,13 +1,19 @@
 # Visual Gyroscope
 ## Step 1: HoLiNet
 
-In our article *Visual Gyroscope: Combination of Deep Learning Features and Direct Alignment for Panoramic Stabilization*, we propose a 3-step pipeline for panoramic image stabilization. In this repository can be found the first step of the pipeline, the Convolutional Neural Network **HoLiNet**
+In our article *Visual Gyroscope: Combination of Deep Learning Features and Direct Alignment for Panoramic Stabilization*, we propose a 3-step pipeline for panoramic image stabilization. In this repository can be found the first step of the pipeline, the Convolutional Neural Network **HoLiNet**.
+
+This one allows a first estimation of the Roll and Pitch angles with a global $360^{\circ}$ convergence domain.
 
 ## Steps 2 and 3: MPP and PVG
 
-The second and third steps of the pipeline share a common library that can be found in [LibPeR](https://github.com/PerceptionRobotique/libPeR_base)
+The second step of the pipeline uses the **Mixture of Photometric Potentials** (MPP) and performs an estimation of the remaining angle (*i.e.* Yaw). Like **Holinet**, this method can converge with a $360^{\circ}$ domain.
 
-Comming soon: [Visual Gyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) 
+To refine the orientation measure, the last step of the pipeline relies on the sole **Photometric** information (PVG) to allow a Roll-Pitch-Yaw orientation estimation leading to a remaining estimated error of a few degrees. 
+
+MPP and PVG share the same library that can be found in [LibPeR](https://github.com/PerceptionRobotique/libPeR_base)
+
+The usage of the library for the visual gyroscope is detailled in the example routines available in the following repository: [Visual Gyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) 
 
 # HoLiNet usage
 
