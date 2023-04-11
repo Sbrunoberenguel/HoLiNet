@@ -32,3 +32,22 @@ python Gyroscope.py --root_dir path/to/images/to/compensate --pth path/to/networ
 ```
 
 The weights used in our article are available [here](https://drive.google.com/drive/folders/1hhXkx2x0dEZbxGYl1Mr3rwGWDuEYodmu?usp=sharing).
+
+# Note from the authors
+This code has not been thoroughly tested, which means it may have some bugs. **Please use with caution.**
+
+The authors and developers of this code want the best for the users and have gone to great lengths to make it easy to use and accessible. 
+Be nice to them and enjoy their work.
+
+If any problem may appear, do not hesitate and we will do our best to solve it (at least we will try).
+
+# License
+This software is under GNU General Public License Version 3 (GPLv3), please see GNU License
+
+If you have any problem, please contact the authors: Bruno Berenguel-Baeta (berenguel@unizar.es), Antoine N. Andre (antoine.andre@cnrs.fr), Guillaume Caron (guillaume.caron@u-picardie.fr), Jesús Bermudez-Cameo (bermudez@unizar.es) and Josechu Guerrero (josechu.guerrero@unizar.es)
+
+You can also find extra information of this (and other) code in our respective GitHub accounts:
+- [Bruno Berenguel-Baeta](https://github.com/Sbrunoberenguel)
+- [Antoine N. Andre](https://github.com/AntoineAndre)
+- [Guillaume Caron](https://github.com/GuicarMIS)
+- [Jesus Bermudez](https://github.com/jesusbermudezcameo)
