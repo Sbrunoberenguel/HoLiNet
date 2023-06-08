@@ -1,7 +1,7 @@
 # Visual Gyroscope
 ## Step 1: HoLiNet
 
-In our article *Visual Gyroscope: Combination of Deep Learning Features and Direct Alignment for Panoramic Stabilization*, we propose a 3-step pipeline for panoramic image stabilization. In this repository can be found the first step of the pipeline, the Convolutional Neural Network **HoLiNet**.
+In our article [Visual Gyroscope: Combination of Deep Learning Features and Direct Alignment for Panoramic Stabilization](https://openaccess.thecvf.com/content/CVPR2023W/OmniCV/papers/Berenguel-Baeta_Visual_Gyroscope_Combination_of_Deep_Learning_Features_and_Direct_Alignment_CVPRW_2023_paper.pdf), we propose a 3-step pipeline for panoramic image stabilization. In this repository can be found the first step of the pipeline, the Convolutional Neural Network **HoLiNet**.
 
 This one allows a first estimation of the Roll and Pitch angles with a global $360^{\circ}$ convergence domain.
 
